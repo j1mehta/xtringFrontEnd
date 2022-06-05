@@ -3,9 +3,9 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './components/pages/About';
 import XtringScore from "./components/pages/XtringScore";
-import Team from "./components/pages/Team";
+//import About from './components/pages/About';
+//import Team from "./components/pages/Team";
 
 function App() {
     return (
@@ -15,8 +15,8 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Home/>} />
                     <Route path='/xtringscore' element={<XtringScore/>} />
-                    <Route path='/about' element={<About/>} />
-                    <Route path='/team' element={<Team/>} />
+                    {/*<Route path='/about' element={<About/>} />
+                    <Route path='/team' element={<Team/>} />*/}
                 </Routes>
             </Router>
         </>
