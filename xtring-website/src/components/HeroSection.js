@@ -6,9 +6,9 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src='/videos/video-1.mp4' autoPlay loop muted />
-            <h1>CREDIT SCORE FOR CRYPTO WALLETS</h1>
-            <p>Build Your On-chain Reputation</p>
+            {/*<video src='/videos/video-1.mp4' autoPlay loop muted />*/}
+            <h1>UNVEIL YOUR ON-CHAIN REPUTATION</h1>
+            <p></p>
         </div>
     );
 }

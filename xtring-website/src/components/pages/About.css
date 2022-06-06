@@ -13,8 +13,9 @@
 .about-container > p{
     text-align: center;
     color: #fff;
-    font-size: 40px;
+    font-size: 60px;
     margin-top: -100px;
     margin-left: 150px;
     margin-right: 150px;
+    font-family: 'Inconsolata', monospace;
 }
